@@ -76,6 +76,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
+              onClick={() => setIsOpen(false)}
               className="hover:text-gray-900 transition-colors duration-200"
             >
               HOME
@@ -84,6 +85,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
+              onClick={() => setIsOpen(false)}
               className="hover:text-gray-900 transition-colors duration-200"
             >
               SERVICES
@@ -92,6 +94,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact"
+              onClick={() => setIsOpen(false)}
               className="hover:text-gray-900 transition-colors duration-200"
             >
               CONTACT
