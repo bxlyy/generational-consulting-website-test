@@ -7,12 +7,27 @@ export default function Navbar() {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="max-w-screen-2xl mx-auto flex justify-between items-center px-6 py-4">
-        {/* Brand */}
-        <div className="text-2xl transform scale-y-125 font-georgia text-gray-900">
-          <Link to="/">GENERATIONAL CONSULTING</Link>
+        {/* branding */}
+        <div className="flex items-center space-x-3">
+          {/* logo */}
+          <Link to="/">
+            <img
+              src="/assets/clublogo.png"
+              alt="Generational Consulting Logo"
+              className="h-8 w-auto object-contain"
+            />
+          </Link>
+
+          {/* gen con text */}
+          <Link
+            to="/"
+            className="text-xl transform scale-y-125 md:text-xl font-georgia text-gray-900 hidden sm:inline-block"
+          >
+            GENERATIONAL CONSULTING
+          </Link>
         </div>
 
-        {/* Desktop Links */}
+        {/* desktop links */}
         <ul className="hidden md:flex space-x-8 text-gray-700 font-inter text-lg">
           <li>
             <Link
@@ -40,13 +55,13 @@ export default function Navbar() {
           </li>
         </ul>
 
-        {/* Mobile Hamburger */}
+        {/* mobile hamburger */}
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-gray-700 hover:text-gray-900 focus:outline-none"
           >
-            &#9776; {/* Hamburger icon */}
+            &#9776; {/* hamburger icon */}
           </button>
         </div>
         {/* Mobile Menu Placeholder */}
@@ -55,7 +70,7 @@ export default function Navbar() {
         {/* <button className="text-gray-700 hover:text-gray-900">&#9776;</button> */}
         {/* </div> */}
       </nav>
-      {/* Mobile Menu */}
+      {/* mobile menu */}
       {isOpen && (
         <ul className="md:hidden flex flex-col bg-white shadow-md px-6 py-4 space-y-4">
           <li>
