@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <main className="bg-white text-gray-900 font-sans min-h-screen">
+    <main className="bg-white text-gray-900 font-sans">
       <section className="max-w-4xl mx-auto pt-16 pb-8 px-4 text-center space-y-6">
         <h1 className="text-4xl font-georgia mb-4">Want to reach us?</h1>
         <p className="text-lg sm:text-xl font-inter text-gray-700 max-w-xl mx-auto">
@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="w-1/6 h-1 bg-black mx-auto"></div>
 
       {/* Contact the Club */}
-      <section className="max-w-4xl ml-64 py-2 px-2 space-y-4 my-4">
+      <section className="max-w-4xl mx-auto xl:ml-64 py-2 px-4 space-y-4 my-4">
         <h2 className="text-2xl font-georgia mb-3">Contact the Club</h2>
         <ul className="list-none font-inter text-gray-700 space-y-2">
           <li>
@@ -50,7 +50,7 @@ export default function Contact() {
       </section>
 
       {/* Co-Presidents */}
-      <section className="max-w-4xl ml-64 py-2 px-2 space-y-4 my-4">
+      <section className="max-w-4xl mx-auto xl:ml-64 py-2 px-4 space-y-4 my-4">
         <h2 className="text-2xl font-georgia mb-3">Co-Presidents</h2>
         <ul className="list-none font-inter text-gray-700 space-y-2">
           <li>
@@ -75,7 +75,7 @@ export default function Contact() {
       </section>
 
       {/* Head of Recruitment */}
-      <section className="max-w-4xl ml-64 py-2 px-2 space-y-4 my-4">
+      <section className="max-w-4xl mx-auto xl:ml-64 py-2 px-4 space-y-4 my-4">
         <h2 className="text-2xl font-georgia mb-3">Head of Recruitment</h2>
         <ul className="list-none font-inter text-gray-700 space-y-2">
           <li>
@@ -86,7 +86,7 @@ export default function Contact() {
       </section>
 
       {/* Social Media Team */}
-      <section className="max-w-4xl ml-64 py-2 px-2 space-y-4 my-4">
+      <section className="max-w-4xl mx-auto xl:ml-64 py-2 px-4 space-y-4 my-4">
         <h2 className="text-2xl font-georgia mb-3">Other Team i forgot</h2>
         <ul className="list-none font-inter text-gray-700 space-y-2">
           <li>

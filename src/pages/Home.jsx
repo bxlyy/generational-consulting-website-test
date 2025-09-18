@@ -5,8 +5,8 @@ export default function Home() {
         id="introduction"
         className="h-[75vh] max-w-4xl mx-auto flex flex-col justify-center items-center text-center"
       >
-        <div className="w-full mb-4">
-          <h1 className="font-georgia text-3xl sm:text-4xl md:text-6xl transform scale-y-125 leading-[0.75] text-center max-w-full">
+        <div className="w-full mb-4 md:mb-6">
+          <h1 className="font-georgia text-3xl sm:text-4xl md:text-6xl transform scale-y-125 leading-[0.9] sm:leading-[0.9] md:leading-[0.9] text-center max-w-full">
             GENERATIONAL CONSULTING
           </h1>
         </div>
